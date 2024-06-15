@@ -70,6 +70,9 @@ img {
   display: block;
 }
 
+
+
+
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
@@ -133,25 +136,25 @@ img {
     background-color: var(--second-color);
     transition: 0.5s;
   }
-}
-.nav__item {
-  margin-bottom: var(--mb-4);
-}
-.nav__link {
-  position: relative;
-  color: #fff;
-}
-.nav__link:hover {
-  position: relative;
-}
-.nav__link:hover::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 0.18rem;
-  left: 0;
-  top: 2rem;
-  background-color: var(--first-color);
+  .nav__item {
+    margin-bottom: var(--mb-4);
+  }
+  .nav__link {
+    position: relative;
+    color: #fff;
+  }
+  .nav__link:hover {
+    position: relative;
+  }
+  .nav__link:hover::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.18rem;
+    left: 0;
+    top: 2rem;
+    background-color: var(--first-color);
+  }
 }
 .nav__logo {
   color: var(--second-color);
@@ -373,6 +376,22 @@ img {
   }
   .home__img {
     width: 200px;
+  }
+  .home__title {
+    font-size: 1.5rem;
+  }
+  .section-title {
+    font-size: 1rem;
+  }
+  .button {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.875rem;
+  }
+  .about__container, .skills__container, .work__container, .contact__container {
+    padding: 1rem;
+  }
+  .nav__menu {
+    width: 100%;
   }
 }
 @media screen and (min-width: 576px) {
